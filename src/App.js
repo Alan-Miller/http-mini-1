@@ -35,6 +35,18 @@ class App extends Component {
 
     const message = this.state && this.state.armiesArray.length < 1 ? "ALL CLEAR" : "";
 
+    const armies = this.state.armiesArray.map((army, armyIndex) => (
+      <ul className="army" key={armyIndex}>
+        <h3>Enemy Army #{army.id}: {army.name}</h3>
+        <div className="leader">{army.leader}</div>
+        <ul className="minions">
+          {army.minions.map((minion, minionIndex) => (
+            <li key={minionIndex} className="minion">{minion.type}</li>
+          ))}
+        </ul>
+      </ul>
+    ))
+
     return (
       <div className="App">
 
@@ -72,7 +84,7 @@ class App extends Component {
 
         {/* Enemy Armies */}
         <div className="enemies">
-
+          {armies}
         </div>
       </div>
     );
