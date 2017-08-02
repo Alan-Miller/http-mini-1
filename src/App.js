@@ -3,6 +3,8 @@ import './styles/App.css';
 import {getEnemies} from './services/getEnemies';
 import {getTroops} from './services/getTroops';
 import {postTroop} from './services/postTroop';
+import {patchMinions} from './services/patchMinions';
+import {deleteArmy} from './services/deleteArmy';
 
 
 class App extends Component {
@@ -36,6 +38,7 @@ class App extends Component {
   }
 
   recruitTroop(event, recruit) {
+    event.preventDefault();
     if (recruit) {
       postTroop(recruit).then(() => {
         this.callTroops();
@@ -45,14 +48,26 @@ class App extends Component {
   }
 
 
-  transformMinion() {
+  transformMinion(armyShortname, minionId) {
+    patchMinions(armyShortname, minionId).then(() => {
+      this.seeEnemies()
+    })
   }
 
-  slayLeader() {
+  slayLeader(shortname, id) {
+    deleteArmy(shortname, id).then(() => {
+      this.seeEnemies();
+    })
   }
 
   componentDidMount() {
     this.callTroops();
+  }
+
+  handleInput(event) {
+    this.setState({
+      newRecruit: event.target.value
+    })
   }
 
 
@@ -64,10 +79,10 @@ class App extends Component {
     const armies = this.state.armiesArray.map((army, armyIndex) => (
       <ul className="army" key={armyIndex}>
         <h3>Enemy Army #{army.id}: {army.name}</h3>
-        <div className="leader">{army.leader}</div>
+        <div className="leader" onClick={() => this.slayLeader(army.shortname, army.id)}>{army.leader}</div>
         <ul className="minions">
           {army.minions.map((minion, minionIndex) => (
-            <li key={minionIndex} className="minion">{minion.type}</li>
+            <li key={minionIndex} className="minion" onClick={() => this.transformMinion(army.shortname, minion.id)}>{minion.type}</li>
           ))}
         </ul>
       </ul>
@@ -99,8 +114,8 @@ class App extends Component {
         <div className="reinforcements">
           <form type="submit">
             New Recruit Request Form:
-            <input id="paperwork" placeholder="Please indicate requested recruit" value={this.state.newRecruit}/>
-            <button>Enlist!</button>
+            <input id="paperwork" placeholder="Please indicate requested recruit" value={this.state.newRecruit} onChange={(e) => this.handleInput(e)} />
+            <button onClick={(e) => this.recruitTroop(e, this.state.newRecruit)} >Enlist!</button>
           </form>
 
           <div id="wall">
