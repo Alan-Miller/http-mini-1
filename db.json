@@ -3,6 +3,398 @@
     {
       "id": 0,
       "recruit": "Bill the Archer"
+    },
+    {
+      "recruit": "I love JavaScript!",
+      "id": 1
+    },
+    {
+      "recruit": "I love JavaScript!",
+      "id": 2
+    },
+    {
+      "recruit": "I love JavaScript!",
+      "id": 3
+    },
+    {
+      "recruit": "I love JavaScript!",
+      "id": 4
+    },
+    {
+      "recruit": "I love JavaScript!",
+      "id": 5
+    },
+    {
+      "recruit": "I love JavaScript!",
+      "id": 6
+    },
+    {
+      "recruit": "I love JavaScript!",
+      "id": 7
+    },
+    {
+      "recruit": "I love JavaScript!",
+      "id": 8
+    },
+    {
+      "recruit": "I love JavaScript!",
+      "id": 9
+    },
+    {
+      "recruit": "I love JavaScript!",
+      "id": 10
+    },
+    {
+      "recruit": "I love JavaScript!",
+      "id": 11
+    },
+    {
+      "recruit": "I love JavaScript!",
+      "id": 12
+    },
+    {
+      "recruit": "I love JavaScript!",
+      "id": 13
+    },
+    {
+      "recruit": "I love JavaScript!",
+      "id": 14
+    },
+    {
+      "recruit": "I love JavaScript!",
+      "id": 15
+    },
+    {
+      "recruit": "I love JavaScript!",
+      "id": 16
+    },
+    {
+      "recruit": "I love JavaScript!",
+      "id": 17
+    },
+    {
+      "recruit": "I love JavaScript!",
+      "id": 18
+    },
+    {
+      "recruit": "I love JavaScript!",
+      "id": 19
+    },
+    {
+      "recruit": "I love JavaScript!",
+      "id": 20
+    },
+    {
+      "recruit": "I love JavaScript!",
+      "id": 21
+    },
+    {
+      "recruit": "I love JavaScript!",
+      "id": 22
+    },
+    {
+      "recruit": "I love JavaScript!",
+      "id": 23
+    },
+    {
+      "recruit": "I love JavaScript!",
+      "id": 24
+    },
+    {
+      "recruit": "I love JavaScript!",
+      "id": 25
+    },
+    {
+      "recruit": "I love JavaScript!",
+      "id": 26
+    },
+    {
+      "recruit": "I love JavaScript!",
+      "id": 27
+    },
+    {
+      "recruit": "Alan",
+      "id": 28
+    },
+    {
+      "recruit": "Alan",
+      "id": 29
+    },
+    {
+      "recruit": "Alan",
+      "id": 30
+    },
+    {
+      "recruit": "Alan",
+      "id": 31
+    },
+    {
+      "recruit": "Alan",
+      "id": 32
+    },
+    {
+      "recruit": "Alan",
+      "id": 33
+    },
+    {
+      "recruit": "Alan",
+      "id": 34
+    },
+    {
+      "recruit": "Alan",
+      "id": 35
+    },
+    {
+      "recruit": "Alan",
+      "id": 36
+    },
+    {
+      "recruit": "Alan",
+      "id": 37
+    },
+    {
+      "recruit": "Alan",
+      "id": 38
+    },
+    {
+      "recruit": "Alan",
+      "id": 39
+    },
+    {
+      "recruit": "Alan",
+      "id": 40
+    },
+    {
+      "recruit": "Alan",
+      "id": 41
+    },
+    {
+      "recruit": "Alan",
+      "id": 42
+    },
+    {
+      "recruit": "Alan",
+      "id": 43
+    },
+    {
+      "recruit": "Alan",
+      "id": 44
+    },
+    {
+      "recruit": "Alan",
+      "id": 45
+    },
+    {
+      "recruit": "Alan",
+      "id": 46
+    },
+    {
+      "recruit": "Alan",
+      "id": 47
+    },
+    {
+      "recruit": "Alan",
+      "id": 48
+    },
+    {
+      "recruit": "Alan",
+      "id": 49
+    },
+    {
+      "recruit": "Alan",
+      "id": 50
+    },
+    {
+      "recruit": "Alan",
+      "id": 51
+    },
+    {
+      "recruit": "Alan",
+      "id": 52
+    },
+    {
+      "recruit": "Alan",
+      "id": 53
+    },
+    {
+      "recruit": "Alan",
+      "id": 54
+    },
+    {
+      "recruit": "Alan",
+      "id": 55
+    },
+    {
+      "recruit": "Alan",
+      "id": 56
+    },
+    {
+      "recruit": "Alan",
+      "id": 57
+    },
+    {
+      "recruit": "Alan",
+      "id": 58
+    },
+    {
+      "recruit": "Alan",
+      "id": 59
+    },
+    {
+      "recruit": "Alan",
+      "id": 60
+    },
+    {
+      "recruit": "Alan",
+      "id": 61
+    },
+    {
+      "recruit": "Alan",
+      "id": 62
+    },
+    {
+      "recruit": "Alan",
+      "id": 63
+    },
+    {
+      "recruit": "Alan",
+      "id": 64
+    },
+    {
+      "recruit": "Alan",
+      "id": 65
+    },
+    {
+      "recruit": "Alan",
+      "id": 66
+    },
+    {
+      "recruit": "Alan",
+      "id": 67
+    },
+    {
+      "recruit": "Alan",
+      "id": 68
+    },
+    {
+      "recruit": "Alan",
+      "id": 69
+    },
+    {
+      "recruit": "Alan",
+      "id": 70
+    },
+    {
+      "recruit": "Alan",
+      "id": 71
+    },
+    {
+      "recruit": "Alan",
+      "id": 72
+    },
+    {
+      "recruit": "Alan",
+      "id": 73
+    },
+    {
+      "recruit": "Alan",
+      "id": 74
+    },
+    {
+      "recruit": "Alan",
+      "id": 75
+    },
+    {
+      "recruit": "Alan",
+      "id": 76
+    },
+    {
+      "recruit": "Alan",
+      "id": 77
+    },
+    {
+      "recruit": "Alan",
+      "id": 78
+    },
+    {
+      "recruit": "Alan",
+      "id": 79
+    },
+    {
+      "recruit": "Alan",
+      "id": 80
+    },
+    {
+      "recruit": "Alan",
+      "id": 81
+    },
+    {
+      "recruit": "Alan",
+      "id": 82
+    },
+    {
+      "recruit": "Alan",
+      "id": 83
+    },
+    {
+      "recruit": "Alan",
+      "id": 84
+    },
+    {
+      "recruit": "Alan",
+      "id": 85
+    },
+    {
+      "recruit": "Alan",
+      "id": 86
+    },
+    {
+      "recruit": "Alan",
+      "id": 87
+    },
+    {
+      "recruit": "Alan",
+      "id": 88
+    },
+    {
+      "recruit": "Alan",
+      "id": 89
+    },
+    {
+      "recruit": "bob",
+      "id": 90
+    },
+    {
+      "recruit": "bob",
+      "id": 91
+    },
+    {
+      "recruit": "bob",
+      "id": 92
+    },
+    {
+      "recruit": "bob",
+      "id": 93
+    },
+    {
+      "recruit": "bob",
+      "id": 94
+    },
+    {
+      "recruit": "bob",
+      "id": 95
+    },
+    {
+      "recruit": "bob",
+      "id": 96
+    },
+    {
+      "recruit": "bob",
+      "id": 97
+    },
+    {
+      "recruit": "bob",
+      "id": 98
     }
   ],
   "undead": [
